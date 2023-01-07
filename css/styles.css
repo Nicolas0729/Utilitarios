@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color_1: rgb(8, 143, 37);
+    --color_2: #000;
+    --color_3: #fff;
+    --color_4: #222222;
+    --border_header: rgba(238, 238, 238, 0.192);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+body a {
+    text-decoration: none;
+}
+body li {
+    list-style: none;
+}
+
+/* ------------BTN GLOBAL------------------- */
+.btn_global {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+/* ------------ESTILOS HEADER--------------- */
+.header {
+    width: 100%;
+    border-bottom: 1px solid var(--border_header);
+    position: absolute;
+    z-index: 99;
+    top: 0;
+}
+.header .content_header {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .content_header .left_header {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+        .left_header .logo_header img {
+            width: 150px;
+        }
+        .left_header .menu_header nav {
+            display: flex;
+            gap: 10px;
+            padding: 0px 20px;
+        }
+            .menu_header nav li .item_menu{
+                font-size: 13px;
+                font-weight: 500;
+                color: var(--color_3);
+            }
+    .content_header .right_header {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid var(--border_header);
+    }
+        .right_header .contact a {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 0px 20px;
+        }
+            .contact a .call_icon i {
+                font-size: 25px;
+                color: var(--color_3);
+            }
+            .contact a .call_number .call_slog {
+                font-size: 13px;
+                color: var(--color_3);
+            }
+            .contact a .call_number .number_1 {
+                font-size: 13px;
+                color: var(--color_3);
+            }
+        .right_header .log_header {
+            display: flex;
+            align-items: center;
+        }
+            .log_header .item_log {
+                border-left: 1px solid var(--border_header);
+            }
+            .log_header .item_log_menu {
+                background-color: var(--color_1);
+            }
+            .log_header .item_log a i{
+                font-size: 25px;
+                color: var(--color_3);
+                padding: 25px;
+            }
+            .log_header .item_log a .icon_menu {
+                color: var(--color_3);
+            }
+
+/* -------------------COVER------------------------ */
+.cover {
+    width: 100%;
+    min-height: 100vh;
+    clip-path: polygon(0% 0%, 150% 0%, 87% 100%, 0% 90%);
+}
+.cover .content_cover {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+}
+    .content_cover .slider_cover {
+        width: 100%;
+        height: 100%;
+    }
+    .slider_cover .card_slider {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+        .card_slider .img_card {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+            .img_card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: flex;
+            }
+        .card_slider .container_card {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.363);
+            display: flex;
+            align-items: center;
+        }
+            .container_card .content_card {
+                width: 100%;
+                max-width: 1140px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-end;
+                gap: 30px;
+            }
+                .content_card .text_card {
+                    width: 500px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                }
+                    .text_card .subtitle_card {
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: var(--color_1);
+                    }
+                    .text_card .title_card {
+                        font-size: 25px;
+                        font-weight: 800;
+                        color: var(--color_3);
+                    }
+                    .text_card .paragraph_card {
+                        font-size: 20px;
+                        color: var(--color_3);
+                    }
+                .content_card .bot_card {
+                    width: 500px;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                }
+                    .bot_card .button_card .btn_read {
+                        background-color: var(--color_1);
+                        color: var(--color_3);
+                        transition: 0.3s;
+                    }
+                    .bot_card .button_card .btn_read:hover {
+                        background-color: var(--color_4);
+                    }
+                    .bot_card .button_card .btn_motorcycles {
+                        background-color: var(--color_4);
+                        color: var(--color_3);
+                        transition: 0.3s;
+                    }
+                    .bot_card .button_card .btn_motorcycles:hover {
+                        background-color: var(--color_1);
+                    }
+        .slider_cover .owl-dots {
+            position: absolute;
+            bottom: 200px;
+            right: 220px;
+            text-align: center;
+        }
+        .slider_cover .owl-dot {
+            height: 15px;
+            width: 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            outline: none;
+            margin: 0 5px;
+            border: 2px solid var(--color_3)!important;
+            transition: 0.3s;
+        }
+        .slider_cover .owl-dot.active {
+            background-color: var(--color_3)!important;
+        }
+        .owl-theme .owl-dots .owl-dot span {
+            display: none;
+        }
+

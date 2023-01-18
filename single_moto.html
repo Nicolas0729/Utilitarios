@@ -16,7 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
     
     <title>Single Moto</title>
-    <link rel="stylesheet" href="css/styles.css?v=1.3">
+    <link rel="stylesheet" href="css/styles.css?v=1.4">
 </head>
 <body>
     
@@ -90,8 +90,8 @@
                 <div class="sidebar_left">
                     <div class="top_sidebar">
                         <div class="title_sidebar">
-                            <h2 class="title_top">BUSCAR OPCIONES</h2>
-                            <p class="subtitle_top">ENCUENTRA TU MOTOCICLETA</p>
+                            <h2 class="title_top title_top_md">$ 6.199.000</h2>
+                            <p class="subtitle_top">SUJETO A CAMBIOS</p>
                         </div>
                         <div class="img_top">
                             <img src="img/sidebar-logo.svg" alt="">
@@ -161,68 +161,207 @@
                         <h2 class="title_info_ve">Información adicional</h2>
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="color-tab" data-bs-toggle="tab" data-bs-target="#color" type="button" role="tab" aria-controls="color" aria-selected="true">COLORES DISPONIBLE</button>
+                              <button class="nav-link active" id="color-tab" data-bs-toggle="tab" data-bs-target="#color" type="button" role="tab" aria-controls="color" aria-selected="true">Colores disponibles</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="motor-tab" data-bs-toggle="tab" data-bs-target="#motor" type="button" role="tab" aria-controls="motor" aria-selected="false">MOTOR</button>
+                              <button class="nav-link" id="motor-tab" data-bs-toggle="tab" data-bs-target="#motor" type="button" role="tab" aria-controls="motor" aria-selected="false">Motor</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="dimension-tab" data-bs-toggle="tab" data-bs-target="#dimension" type="button" role="tab" aria-controls="dimension" aria-selected="false">CHASIS, PESO Y DIMENSIONES</button>
+                              <button class="nav-link" id="dimension-tab" data-bs-toggle="tab" data-bs-target="#dimension" type="button" role="tab" aria-controls="dimension" aria-selected="false">Chasis, peso y dimensiones</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="frenos-tab" data-bs-toggle="tab" data-bs-target="#frenos" type="button" role="tab" aria-controls="frenos" aria-selected="false">FRENOS Y LLANTAS</button>
+                                <button class="nav-link" id="frenos-tab" data-bs-toggle="tab" data-bs-target="#frenos" type="button" role="tab" aria-controls="frenos" aria-selected="false">Frenos y llantas</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="sistema-tab" data-bs-toggle="tab" data-bs-target="#sistema" type="button" role="tab" aria-controls="sistema" aria-selected="false">SISTEMA ELÉCTRICO</button>
+                                <button class="nav-link" id="sistema-tab" data-bs-toggle="tab" data-bs-target="#sistema" type="button" role="tab" aria-controls="sistema" aria-selected="false">Sistema eléctrico</button>
                             </li>
-                          </ul>
-                          <div class="tab-content" id="myTabContent">
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="color" role="tabpanel" aria-labelledby="color-tab">
                                 <ul class="list_info">
-                                    <li class="item_info">Azul</li>
-                                    <li class="item_info">Gris</li>
-                                    <li class="item_info">Gris Gráfito</li>
-                                    <li class="item_info">Rojo</li>
-                                    <li class="item_info">Verde</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i>Azul</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i>Gris</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i>Gris Gráfito</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i>Rojo</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i>Verde</li>
                                 </ul>
                             </div>
                             <div class="tab-pane fade" id="motor" role="tabpanel" aria-labelledby="motor-tab">
                                 <ul class="list_info">
-                                    <li class="item_info">Azul</li>
-                                    <li class="item_info">Gris</li>
-                                    <li class="item_info">Gris Gráfito</li>
-                                    <li class="item_info">Rojo</li>
-                                    <li class="item_info">Verde</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Tipo: </span> 4 tiempos, monocilíndrico, SOHC</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Potencia Máxima: </span> 7.59 Hp @ 7500 rpm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Torque Máximo: </span> 8.24 N.m @ 5500 rpm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Cilindrada: </span> 102 cc</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Diámetro x carrera: </span> 47 mm x 58.8 mm</li>
                                 </ul>
                             </div>
                             <div class="tab-pane fade" id="dimension" role="tabpanel" aria-labelledby="dimension-tab">
                                 <ul class="list_info">
-                                    <li class="item_info">Azul</li>
-                                    <li class="item_info">Gris</li>
-                                    <li class="item_info">Gris Gráfito</li>
-                                    <li class="item_info">Rojo</li>
-                                    <li class="item_info">Verde</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Distancia entre ejes:</span> 1235mm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Frame Type:</span> Tubular con Cuna Semi-doble</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Largo x Ancho x Alto:</span> 1965 mm x 752 mm x 1072 mm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Distancia mín. al suelo:</span> 169 mm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Suspensión delantera:</span> Hidraúlica, Telescópica Vertical, 125 mm recorrido</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Peso en seco:</span> 109 Kgs</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Capacidad de tanque:</span> 10.5 L</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Suspensión trasera:</span> Brazo oscilante, Tecnología SNS de 5 posiciones</li>
                                 </ul>
                             </div>
                             <div class="tab-pane fade" id="frenos" role="tabpanel" aria-labelledby="frenos-tab">
                                 <ul class="list_info">
-                                    <li class="item_info">Azul</li>
-                                    <li class="item_info">Gris</li>
-                                    <li class="item_info">Gris Gráfito</li>
-                                    <li class="item_info">Rojo</li>
-                                    <li class="item_info">Verde</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Freno delantero:</span> Tambor 110 mm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Freno trasero:</span> Tambor 110 mm</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Llanta delantera:</span> 2.75-17, 41P Tubetype</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Llanta trasera:</span> 3.00-17, 50P Tube Type</li>
                                 </ul>
                             </div>
                             <div class="tab-pane fade" id="sistema" role="tabpanel" aria-labelledby="sistema-tab">
                                 <ul class="list_info">
-                                    <li class="item_info">Azul</li>
-                                    <li class="item_info">Gris</li>
-                                    <li class="item_info">Gris Gráfito</li>
-                                    <li class="item_info">Rojo</li>
-                                    <li class="item_info">Verde</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Farola:</span> 12V 35/35 W</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Batería:</span> 12 V, 3 Ah MF</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Direccionales:</span> 12 V, 10W</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Stop:</span> 12 V 10/5 W</li>
+                                    <li class="item_info"><i class="fa-solid fa-chevron-right"></i><span class="type_bold">Indicadores de tablero:</span> 12 V, 3W</li>
                                 </ul>
                             </div>
                           </div>
+                    </div>
+                </div>
+                <div class="head_relations">
+                    <h2 class="title_relations">Productos relacionados</h2>
+                </div>
+                <div class="container_items">
+                    <div class="item_moto">
+                        <a href="#">
+                            <div class="top_item">
+                                <div class="type_moto">
+                                    <h2 class="title_moto">BMW T9034 RX</h2>
+                                    <p class="power">POWERED BY BMW</p>
+                                </div>
+                                <div class="price_moto">
+                                    <h3 class="price_">$5.200</h3>
+                                </div>
+                            </div>
+                            <div class="mid_item">
+                                <img src="img/Dominar_250.png" alt="">
+                                <div class="absolute_mid">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="bot_item">
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">YEAR</h3>
+                                    <p class="type_sp_sub">2021</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">TYPE</h3>
+                                    <p class="type_sp_sub">BMW</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">MAKE</h3>
+                                    <p class="type_sp_sub">CHOPPER</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item_moto">
+                        <a href="#">
+                            <div class="top_item">
+                                <div class="type_moto">
+                                    <h2 class="title_moto">BMW T9034 RX</h2>
+                                    <p class="power">POWERED BY BMW</p>
+                                </div>
+                                <div class="price_moto">
+                                    <h3 class="price_">$5.200</h3>
+                                </div>
+                            </div>
+                            <div class="mid_item">
+                                <img src="img/Dominar_250.png" alt="">
+                                <div class="absolute_mid">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="bot_item">
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">YEAR</h3>
+                                    <p class="type_sp_sub">2021</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">TYPE</h3>
+                                    <p class="type_sp_sub">BMW</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">MAKE</h3>
+                                    <p class="type_sp_sub">CHOPPER</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item_moto">
+                        <a href="#">
+                            <div class="top_item">
+                                <div class="type_moto">
+                                    <h2 class="title_moto">BMW T9034 RX</h2>
+                                    <p class="power">POWERED BY BMW</p>
+                                </div>
+                                <div class="price_moto">
+                                    <h3 class="price_">$5.200</h3>
+                                </div>
+                            </div>
+                            <div class="mid_item">
+                                <img src="img/Dominar_250.png" alt="">
+                                <div class="absolute_mid">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="bot_item">
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">YEAR</h3>
+                                    <p class="type_sp_sub">2021</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">TYPE</h3>
+                                    <p class="type_sp_sub">BMW</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">MAKE</h3>
+                                    <p class="type_sp_sub">CHOPPER</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item_moto">
+                        <a href="#">
+                            <div class="top_item">
+                                <div class="type_moto">
+                                    <h2 class="title_moto">BMW T9034 RX</h2>
+                                    <p class="power">POWERED BY BMW</p>
+                                </div>
+                                <div class="price_moto">
+                                    <h3 class="price_">$5.200</h3>
+                                </div>
+                            </div>
+                            <div class="mid_item">
+                                <img src="img/Dominar_250.png" alt="">
+                                <div class="absolute_mid">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="bot_item">
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">YEAR</h3>
+                                    <p class="type_sp_sub">2021</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">TYPE</h3>
+                                    <p class="type_sp_sub">BMW</p>
+                                </div>
+                                <div class="subitem_sp">
+                                    <h3 class="type_sp">MAKE</h3>
+                                    <p class="type_sp_sub">CHOPPER</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

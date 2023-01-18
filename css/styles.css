@@ -188,13 +188,13 @@ body p {
         margin: auto;
     }
     .container_single .subtitle_sg {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 700;
         color: var(--color_1);
     }
     .container_single .title_sg {
-        font-size: 50px;
-        font-weight: 700;
+        font-size: 25px;
+        font-weight: 800;
         color: var(--color_3);
         margin-bottom: 20px;
     }
@@ -203,15 +203,15 @@ body p {
         align-items: center;
     }
         .migas_pan .item_migas {
-            font-size: 15px;
+            font-size: 13px;
             color: var(--color_3);
         }
         .migas_pan .item_sg {
-            font-size: 15px;
+            font-size: 13px;
             color: var(--color_text);
         }
         .migas_pan .separed {
-            font-size: 15px;
+            font-size: 13px;
             color: var(--color_3);
             margin: 0px 10px;
         }
@@ -557,6 +557,12 @@ body p {
                 object-fit: cover;
                 position: relative;
             }
+            .mid_item .img_blog {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: relative;
+            }
             .mid_item .absolute_mid {
                 position: absolute;
                 width: 100%;
@@ -580,9 +586,24 @@ body p {
             padding: 20px;
             transition: 0.3s;
         }
+        .item_moto .bot_item_blog {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            transition: 0.3s;
+        }
             .bot_item .subitem_sp {
                 text-align: center;
                 border-right: 1px solid #d2d2d2;
+            }
+            .bot_item .subitem_sp_left {
+                width: 100%;
+                height: 170px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                text-align: left;
+                border-right: 0;
             }
             .bot_item .subitem_sp:last-child {
                 border-right: 0px;
@@ -1167,4 +1188,98 @@ body p {
                 font-size: 17px;
                 color: var(--color_text);
             }
+            .descrip_vehicle .paragraph_blog {
+                font-size: 14px;
+                color: var(--color_text);
+                margin-bottom: 20px;
+            }
+            .descrip_vehicle .published {
+                font-size: 13px;
+                font-weight: 600;
+            }
+            .descrip_vehicle .published .widget_date {
+                margin: 0px 10px;
+                font-size: 13px;
+                font-weight: 600;
+            }
+            .descrip_vehicle .published .widget_date i {
+                color: var(--color_1);
+                margin-right: 10px;
+            }
+        .container_moto .info_vehicle {
+            width: 100%;
+        }
+        .info_vehicle .title_info_ve {
+            font-size: 25px;
+            font-weight: 700;
+            color: var(--color_2);
+            margin-bottom: 30px;
+        }
+        .info_vehicle .nav-tabs {
+            width: 100%;
+        }
+            .nav-tabs .nav-item .nav-link {
+                font-size: 14px;
+                font-weight: 700;
+                color: var(--color_2);
+                padding: 5px 10px;
+                transition: 0.3s;
+            }
+        .info-vehicle .tab-content {
+            width: 100%;
+        }
+            .tab-content .tab-pane {
+                width: 100%;
+            }
+                .tab-pane .list_info {
+                    width: 100%;
+                    padding: 20px;
+                }
+                .tab-pane .list_info .item_info {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+                    padding: 5px;
+                    border-bottom: 1px dashed var(--color_5);
+                }
+                .tab-pane .list_info .item_info .type_bold {
+                    font-weight: 600;
+                    margin-right: 10px;
+                }
+                .tab-pane .list_info .item_info i {
+                    color: var(--color_1);
+                    margin-right: 10px;
+                }
+                .nav-tabs .nav-item.show .nav-link,
+                .nav-tabs .nav-link.active {
+                    background-color: var(--color_5);
+                }
+    .container_right .head_relations {
+        width: 100%;
+        padding: 20px 0px;
+    }
+        .head_relations .title_relations {
+            font-size: 25px;
+            font-weight: 700;
+            color: var(--color_2);
+        }
 
+
+/* ---------------------BLOG---------------------------- */
+.blog {
+    width: 100%;
+}
+.blog .content_blog {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.content_blog .container_blog {
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}

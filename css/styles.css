@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --color_1: rgb(8, 143, 37);
+    --color_1: #0d53a0;
     --color_2: #000;
     --color_3: #fff;
     --color_4: #222222;
@@ -41,7 +41,6 @@ body p {
     align-items: center;
 }
 .btn_global_content .btn_global {
-    width: 150px;
     text-align: center;
     font-size: 13px;
     font-weight: 600;
@@ -249,7 +248,8 @@ body p {
             position: absolute;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.534);
+            background: rgb(0,0,0);
+background: linear-gradient(270deg, rgba(0,0,0,0.9136029411764706) 8%, rgba(0,0,0,0.8127626050420168) 25%, rgba(0,0,0,0.6839110644257703) 45%, rgba(0,0,0,0.4990371148459384) 67%, rgba(0,0,0,0.09567577030812324) 86%);
             display: flex;
             align-items: center;
         }
@@ -270,9 +270,9 @@ body p {
                     gap: 15px;
                 }
                     .text_card .subtitle_card {
-                        font-size: 13px;
-                        font-weight: 600;
-                        color: var(--color_1);
+                        font-size: 15px;
+                        font-weight: 700;
+                        color: var(--color_text);
                     }
                     .text_card .title_card {
                         font-size: 25px;
@@ -293,6 +293,7 @@ body p {
                         background-color: var(--color_1);
                         color: var(--color_3);
                         transition: 0.3s;
+                        padding: 20px 30px;
                     }
                     .bot_card .button_card:hover .primary {
                         background-color: var(--color_1);
@@ -307,6 +308,7 @@ body p {
                         background-color: var(--color_4);
                         color: var(--color_3);
                         transition: 0.3s;
+                        padding: 20px 30px;
                     }
                     .bot_card .button_card .btn_motorcycles:hover {
                         background-color: var(--color_1);

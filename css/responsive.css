@@ -2,6 +2,9 @@
     .info_ .img_info {
         display: none;
     }
+    .content_footer .col_footer_mobile {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {  
@@ -264,6 +267,7 @@
 
 
     /* -------------CONTENT_SITE------------- */
+
     /* --------------HEAD_SINGLE---------------- */
     .head_single .content_single {
         padding: 100px 0px;
@@ -286,5 +290,16 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    /* ------------SIDEBAR_LEFT------------ */
+    .sidebar_left .top_sidebar {
+        padding: 20px;
+    }
+    .main_sidebar .wrap_filter {
+        padding: 20px;
+    }
+    .wrap_filter .form-select {
+        padding: 10px 15px;
     }
 }

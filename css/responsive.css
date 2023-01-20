@@ -5,6 +5,21 @@
     .content_footer .col_footer_mobile {
         display: none;
     }
+    .box_shop_mobile {
+        display: none;
+    }
+    .box_shop .box_price_desktop {
+        display: none;
+    }
+    .box_shop .bot_box_desktop {
+        display: none;
+    }
+    .container_right .head_relations_desktop {
+        display: none;
+    }
+    .container_right .container_items_desktop {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {  
@@ -188,6 +203,10 @@
     .top_info .title_info {
         font-size: 25px;
     }
+    .top_info .paragraph_info {
+        font-size: 13px;
+        line-height: 18px;
+    }
     .info_ .bot_info {
         width: 100%;
         display: grid;
@@ -216,7 +235,7 @@
 
     /* -------------LOGOTYPES-------------- */
     .logotypes .content_logos {
-        padding: 50px 20px;
+        padding: 20px 20px 10px 20px;
     }
     .content_logos .item_logo {
         padding: 0px;
@@ -226,6 +245,9 @@
     /* -------------BACK_FORM------------- */
     .back_form {
         clip-path: polygon(20% 0%, 100% 10%, 100% 100%, -100% 100%);
+        background-image: url(../img/mailchimp-bg-min.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .content_form .info_form {
         text-align: center;
@@ -301,5 +323,38 @@
     }
     .wrap_filter .form-select {
         padding: 10px 15px;
+    }
+    .content_site .sidebar_right {
+        display: none;
+    }
+
+    /* -------------BOX_SHOP---------------- */
+    .box_shop {
+        padding: 20px 0px;
+    }
+
+    /* --------------CONTAINER RIGTH------------- */
+    .info_vehicle .nav-tabs {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-tabs .nav-item .nav-link {
+        width: 100%;
+    }
+    .container_right .head_relations {
+        padding-bottom: 0;
+    }
+
+    /* -------------MOTO_SG------------ */
+    .container_right .top_moto {
+        display: none;
+    }
+
+    /* -------------ERROR_404-------------- */
+    .error_layout .content_error {
+        padding: 50px 20px;
+    }
+    .head_error .title_error {
+        font-size: 25px;
     }
 }

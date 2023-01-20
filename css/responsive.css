@@ -1,0 +1,290 @@
+@media screen and (min-width: 800px) {
+    .info_ .img_info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {  
+    /* -----------HEAD_GLOBAL---------- */
+    .head_global {
+        padding: 0px 20px;
+    }
+    .head_global .subtitle_global {
+        font-size: 13px;
+    }
+    .head_global .title_global {
+        font-size: 25px;
+    }
+    .head_global .paragraph_global {
+        width: 100%;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    /* -----------HEADER-------------- */
+    .left_header .logo_header {
+        padding: 0px 20px;
+    }
+
+    .left_header .menu_header {
+        display: none;
+    }
+
+    .log_header .item_log_desktop {
+        display: none;
+    }
+
+    /* -----------COVER---------------- */
+    .cover {
+        clip-path: polygon(0% 0%, 280% 0%, 85% 100%, 0% 90%);
+    }
+    .filter_home {
+        display: none;
+    }
+    .card_slider .container_card {
+
+    }
+    .container_card .content_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .content_card .text_card {
+        width: 100%;
+        gap: 0px;
+    }
+    .text_card .subtitle_card {
+        font-size: 13px;
+    }
+    .text_card .title_card {
+        font-size: 20px;
+    }
+    .text_card .paragraph_card {
+        font-size: 14px;
+    }
+    .content_card .bot_card {
+        width: 100%;
+    }
+    .slider_cover .owl-dots {
+        position: absolute;
+        bottom: 120px;
+        right: 20px;
+        text-align: center;
+    }
+
+    /* ---------------WRAPPER----------- */
+    .wrapper .content_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 20px;
+    }
+    .content_wrapper .img_wrapper{
+        display: none;
+    }
+    .text_wrapper .top_wrapper {
+        gap: 5px;
+    }
+    .top_wrapper .subtitle_wrapper {
+        font-size: 13px;
+    }
+    .top_wrapper .title_wrapper {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .top_wrapper .paragraph_wrapper {
+        font-weight: 13px;
+        line-height: 20px;
+    }
+    .text_wrapper .mid_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .text_wrapper .bot_wrapper {
+        display: none;
+    }
+
+    /* -------------CARDS_TYPE----------------- */
+    .back_cards {
+        clip-path: polygon(0% 0%, 500% 0%, 20% 100%, 0% 90%);
+    }
+    .cards_type {
+        padding: 0px 20px;
+    }
+
+    /* -------------CONTAINER_MOTOS------------- */
+    .content_motos .row_motos {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 20px;
+    }
+
+    /* -------------BUILDER_VIDEO------------------ */
+    .content_builder .container_builder {
+        padding: 50px 0px 100px 0px;
+    }
+    .container_builder .box_content {
+        width: 100%;
+        padding: 30px;
+        margin-left: -70px;
+        left: 0;
+    }
+    .box_content .text_box .title_box {
+        font-size: 17px;
+    }
+    .box_content .text_box .paragraph_box {
+        font-size: 11px;
+    }
+    .content_builder .relative_builder {
+        height: 500px;
+    }
+    .container_builder .icon_video {
+        width: 100%;
+    }
+    .icon_video .link_video {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+    .box_content .img_box_sm {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    /* -------------MOTORCYCLE-------------------- */
+    .motorcycle .carousel_motorcycle {
+        width: 100%;
+        padding: 20px;
+    }
+    .carousel_motorcycle .owl-dots.disabled,
+    .carousel_motorcycle .owl-nav.disabled {
+        display: none;
+    }
+
+    /* --------------INFO_IMG-------------------- */
+    .info_img .content_info_img {
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .container_info_img {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_info_img .img_ {
+        display: none;
+    }
+    .info_ .top_info {
+        text-align: center;
+    }
+    .top_info .subtitle_info {
+        font-size: 12px;
+    }
+    .top_info .title_info {
+        font-size: 25px;
+    }
+    .info_ .bot_info {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .item_info .img_item_info {
+        width: 50px;
+        padding: 10px;
+    }
+    .item_info .text_item_info .title_item_info {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .info_ .bot_link_info {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* -------------BLOG------------------- */
+    .content_blog .container_blog {
+        padding: 30px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    /* -------------LOGOTYPES-------------- */
+    .logotypes .content_logos {
+        padding: 50px 20px;
+    }
+    .content_logos .item_logo {
+        padding: 0px;
+    }
+
+
+    /* -------------BACK_FORM------------- */
+    .back_form {
+        clip-path: polygon(20% 0%, 100% 10%, 100% 100%, -100% 100%);
+    }
+    .content_form .info_form {
+        text-align: center;
+        padding: 0px 40px;
+    }
+    .info_form .subtitle_form {
+        font-size: 12px;
+    }
+    .info_form .title_form {
+        font-size: 22px;
+    }
+    .form_subscribe .content_form {
+        padding: 100px 20px 80px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* --------------FOOTER---------------- */
+    .footer .content_footer {
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .content_footer .col_footer_desktop {
+        display: none;
+    }
+    .col_footer .head_footer .title_col {
+        font-size: 17px;
+    }
+    .col_footer .items_footer .link_footer {
+        font-size: 12px;
+        color: #fff;
+    }
+    .items_footer .zone .email {
+        font-size: 12px;
+        color: #fff;
+    }
+
+
+    /* -------------CONTENT_SITE------------- */
+    /* --------------HEAD_SINGLE---------------- */
+    .head_single .content_single {
+        padding: 100px 0px;
+    }
+    .content_single .container_single {
+        padding: 0px 20px;
+    }
+    .container_single .title_sg {
+        font-size: 35px;
+    }
+
+    .site_ .content_site {
+        width: 100%;
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container_right .container_items {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

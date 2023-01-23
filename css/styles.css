@@ -373,12 +373,20 @@ body p {
         z-index: 2;
         padding-left: 14%;
     }
+    .filter_home_pos {
+        position: inherit;
+        margin:50px auto;
+    }
         .filter_home .content_filter {
             width: 300px;
             background-color: rgba(0, 0, 0, 0.322);
             border-radius: 10px;
             padding: 30px;
-
+        }
+        .filter_home .content_filter_mobile {
+            width: 90%;
+            background-color: var(--color_3);
+            border: 1px solid var(--color_5);
         }
             .content_filter .head_filter {
                 width: 100%;
@@ -388,6 +396,9 @@ body p {
                 font-size: 25px;
                 font-weight: 700;
                 color: var(--color_3);
+            }
+            .content_filter .head_filter .title_filter_black {
+                color: var(--color_2);
             }
             .content_filter .body_filter {
                 width: 100%;
@@ -405,6 +416,14 @@ body p {
                     background-color: rgba(0, 0, 0, 0.411);
                     border: 1px solid var(--color_4);
                     color: var(--color_3);
+                    font-size: 15px;
+                    font-weight: 600;
+                    box-shadow: none;
+                }
+                .body_filter .sel_mobile {
+                    background-color: var(--color_3);
+                    border: 1px solid var(--color_5);
+                    color: var(--color_2);
                     font-size: 15px;
                     font-weight: 600;
                     box-shadow: none;
@@ -1699,3 +1718,252 @@ body p {
 .content_error .bot_error .btn_back:hover {
     background-color: var(--color_4);
 }
+
+
+/* -----------------OFFCANVAS DESKTOP---------- */
+.offcanvas.offcanvas-end {
+    width: 330px;
+}
+.offcanvas {
+    background-color: var(--color_2);
+}
+.offcanvas-header {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.offcanvas-header .btn-close {
+    background-color: var(--color_1);
+    padding: 0px;
+    opacity: 1;
+    border-radius: 0;
+    display: flex;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-image: url(../img/close.png);
+    width: 50px;
+    height: 50px;
+}
+.offcanvas-body {
+    padding: 50px 40px;
+}
+.offcanvas-body .logo_ut {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.offcanvas-body .logo_ut img {
+    width: 200px;
+}
+.offcanvas-body .canva_menu {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.offcanvas-body .canva_menu .navi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.offcanvas-body .canva_menu .navi .item_navi {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color_3);
+    border-bottom: 3px solid var(--color_2);
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.offcanvas-body .canva_menu .navi .item_navi:hover {
+    width: 100%;
+    border-bottom: 3px solid var(--color_1);
+    color: var(--color_text);
+
+}
+.offcanvas-body .bot_canva {
+    width: 100%;
+}
+.offcanvas-body .bot_canva a {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--color_1);
+    color: var(--color_3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s;
+    border-bottom: 3px solid var(--color_1);
+}
+.offcanvas-body .bot_canva a:hover {
+    background-color: var(--color_4);
+}
+    .bot_canva a i {
+        font-size: 50px;
+    }
+    .bot_canva a .text_bot_canva {
+        font-size: 15px;
+    }
+    .bot_canva a .number_supp {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+/* -------------COLLAPSE-------------------- */
+.collap_mod {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding: 0px 20px;
+    display: fl;
+}
+.collapse {
+    width: 100%;
+}
+.card {
+    background-color: transparent;
+    border: 0;
+}
+.card .main_search {
+    width: 100%;
+}
+    .main_search form {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_search form input[type="search"]{
+        width: 100%;
+        padding: 20px;
+        font-size: 13px;
+        border: 1px solid var(--color_5);
+        color: var(--color_text);
+    }
+    .main_search form input[type="search"]::placeholder {
+        font-size: 13px;
+        color: var(--color_text);
+    }
+    .main_search .btn_coll .btn_bus {
+        background-color: var(--color_1);
+        color: var(--color_3);
+    }
+        .btn_coll .btn_bus {
+            background-color: var(--color_1);
+            color: var(--color_3);
+            transition: 0.3s;
+        }
+        .btn_coll:hover .btn_bus {
+            background-color: var(--color_3);
+            color: var(--color_4);
+            border: 1px solid var(--color_4);
+        }
+        .btn_coll:hover span {
+            background-color: var(--color_1);
+        }
+
+/* ------------------LOGIN --------------- */
+.login_home {
+    width: 100%;
+    padding: 100px 20px;
+}
+.login_home .content_login {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 60px 40px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.content_login .head_login {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content_login .head_login .title_login {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color_2);
+}
+.content_login .head_login .paragraph_login {
+    font-size: 15px;
+    color: var(--color_text);
+}
+.content_login .form_login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    .form_login .camp_form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .form_login .camp_form i {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color_5);
+        color: var(--color_text );
+    }
+    .form_login .camp_form input[type="text"] {
+        width: 100%;
+        height: 50px;
+        border: 1px solid var(--color_5);
+        padding: 0px 20px;
+    }
+    .form_login .camp_form input[type="password"] {
+        width: 100%;
+        height: 50px;
+        border: 1px solid var(--color_5);
+        padding: 0px 20px;
+    }
+    .form_login .camp_check {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+        .camp_check .form-check .form-check-input {
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .camp_check .pass_lock {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--color_1);
+            text-decoration: underline;
+        }
+    .form_login .bot_form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 15px
+    }
+    .form_login .bot_form .btn_sesion {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 20px 0px;
+        background-color: var(--color_1);
+        color: var(--color_3);
+        transition: 0.3s;
+    }
+    .form_login .bot_form .btn_sesion:hover {
+        background-color: var(--color_text);
+    }
+    .form_login .bot_form .btn_create {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 20px 0px;
+        background-color: var(--color_4);
+        color: var(--color_3);
+        transition: 0.3s;
+    }
+    .form_login .bot_form .btn_create:hover {
+        background-color: var(--color_text);
+    }

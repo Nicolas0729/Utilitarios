@@ -20,6 +20,9 @@
     .container_right .container_items_desktop {
         display: none;
     }
+    .filter_home_pos {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {  
@@ -60,6 +63,9 @@
     }
     .filter_home {
         display: none;
+    }
+    .filter_home_pos {
+        display: block;
     }
     .card_slider .container_card {
 
@@ -358,5 +364,27 @@
     }
     .head_error .title_error {
         font-size: 25px;
+    }
+
+    /* --------------LOGIN -----------------*/
+    .content_login .head_login .title_login {
+        font-size: 30px;
+    }
+    .camp_check .pass_lock {
+        font-size: 11px;
+    }
+    .form_login .camp_form input[type="text"] {
+        font-size: 12px;
+    }
+    .form_login .camp_form input[type="password"] {
+        font-size: 12px;
+    }
+    .form_login .bot_form .btn_sesion {
+        font-size: 13px;
+        padding: 15px;
+    }
+    .form_login .bot_form .btn_create {
+        font-size: 13px;
+        padding: 15px;
     }
 }

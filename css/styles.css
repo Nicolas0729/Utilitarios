@@ -575,7 +575,7 @@ body p {
     }
         .card_moto a {
             width: 100%;
-            height: 250px;
+            height: 300px;
             display: flex;
             flex-direction: column;
             padding: 20px;
@@ -677,16 +677,16 @@ body p {
             transition: 0.3s;
         }
             .top_item .type_moto .title_moto {
-                font-size: 14px;
+                font-size: 13px;
                 font-weight: 800;
                 color: var(--color_2);
             }
             .top_item .type_moto .power {
-                font-size: 12px;
+                font-size: 11px;
                 color: var(--color_text);
             }
             .top_item .price_moto .price_ {
-                font-size: 17px;
+                font-size: 15px;
                 font-weight: 800;
                 color: var(--color_1);
             }
@@ -765,7 +765,7 @@ body p {
                     color: var(--color_2);
                 }
                 .subitem_sp .type_sp_sub {
-                    font-size: 13px;
+                    font-size: 12px;
                     color: var(--color_text);
                     margin-bottom: 0;
                 }
@@ -1026,7 +1026,7 @@ body p {
             width: 100%;
         }
     .container_builder .icon_video {
-        width: 700px;
+        width: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1069,13 +1069,21 @@ body p {
 }
     .content_logos .carousel_logos {
         width: 100%;
+        display: flex;
+        align-items: center;
     }
     .content_logos .item_logo {
         padding: 0px 20px;
+        display: flex;
+        align-items: center;
     }
     .content_logos .item_logo img {
         width: 100%;
+        height: 30px;
+        object-fit: contain;
         transition: 0.3s;
+        display: flex;
+        margin: 0;
     }
 
 /* -------------------------EMAIL_SUBSCRIBE-------------- */
@@ -1768,9 +1776,9 @@ body p {
     flex-direction: column;
 }
 .offcanvas-body .canva_menu .navi .item_navi {
-    width: 60%;
-    font-size: 20px;
-    font-weight: 600;
+    width: 70%;
+    font-size: 17px;
+    font-weight: 500;
     color: var(--color_3);
     border-bottom: 3px solid var(--color_2);
     margin-bottom: 5px;
@@ -1788,26 +1796,27 @@ body p {
 .offcanvas-body .bot_canva a {
     width: 100%;
     padding: 20px;
-    background-color: var(--color_1);
+    background-color: var(--color_4);
     color: var(--color_3);
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 10px;
     transition: 0.3s;
     border-bottom: 3px solid var(--color_1);
 }
 .offcanvas-body .bot_canva a:hover {
-    background-color: var(--color_4);
+    background-color: var(--color_text);
 }
     .bot_canva a i {
-        font-size: 50px;
+        font-size: 40px;
     }
-    .bot_canva a .text_bot_canva {
+    .bot_canva a .text_bot_canva .text_bot_{
+        font-size: 13px;
+    }
+    .bot_canva a .text_bot_canva .number_supp {
         font-size: 15px;
-    }
-    .bot_canva a .number_supp {
-        font-size: 18px;
         font-weight: 700;
+        margin-bottom: 0;
     }
 
 /* -------------COLLAPSE-------------------- */
@@ -1967,3 +1976,34 @@ body p {
     .form_login .bot_form .btn_create:hover {
         background-color: var(--color_text);
     }
+
+/* ------------------------LOCATION---------------------------- */
+.location {
+    width: 100%;
+}
+.location .content_location {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding: 100px 0px;
+}
+.content_location .row_locations {
+    width: 100%;
+}
+    .row_locations .item_loc {
+        display: flex;
+        align-items: center;
+    }
+    .row_locations .item_loc .city_loc {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+        .item_loc .city_loc .title_city {
+            font-size: 20px;
+            font-weight: 700;
+            background-color: var(--color_1);
+            border-radius: 10px 10px 0px 0px;
+            padding: 5px 15px;
+            color: var(--color_3);
+        }

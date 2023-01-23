@@ -43,7 +43,9 @@
     .left_header .logo_header {
         padding: 0px 20px;
     }
-
+    .left_header .logo_header a img {
+        width: 100px;
+    }
     .left_header .menu_header {
         display: none;
     }

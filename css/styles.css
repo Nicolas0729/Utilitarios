@@ -1987,23 +1987,69 @@ body p {
     margin: auto;
     padding: 100px 0px;
 }
+.content_location .head_location {
+    margin: 50px 0px;
+}
+.content_location .head_location .title_location {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color_2);
+}
 .content_location .row_locations {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
-    .row_locations .item_loc {
-        display: flex;
-        align-items: center;
+    .row_locations .list_loc {
+        display: grid;
+        grid-template-columns: 1fr;
+        border-bottom: 1px solid var(--color_5);
+        border-right: 1px solid var(--color_5);
+        border-left: 1px solid var(--color_5);
     }
-    .row_locations .item_loc .city_loc {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    .row_locations .list_loc .item_loc {
+        width: 100%;
     }
-        .item_loc .city_loc .title_city {
+        .list_loc .item_loc .title_loc {
+            width: 100%;
             font-size: 20px;
             font-weight: 700;
             background-color: var(--color_1);
-            border-radius: 10px 10px 0px 0px;
-            padding: 5px 15px;
+            padding: 10px 15px;
             color: var(--color_3);
         }
+        .list_loc .item_loc .title_loc i {
+            margin-right: 10px;
+        }
+        .row_locations .list_loc .bot_loc {
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .list_loc .bot_loc .descrip_loc {
+            font-size: 15px;
+            padding: px 0px;
+            color: var(--color_text);
+        }
+        .list_loc .bot_loc .descrip_loc .title_item {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--color_2);
+            margin-right: 5px;
+        }
+        .list_loc .item_loc .descrip_loc_bold {
+            font-size: 16px;
+            font-weight: 600;
+            padding: 5px 15px;
+            color: var(--color_2);
+        }
+    .list_info .item_col .descrip_loc_bold {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px 15px;
+        color: var(--color_2);
+    }
+    

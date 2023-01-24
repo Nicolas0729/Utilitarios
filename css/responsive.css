@@ -387,4 +387,14 @@
         font-size: 13px;
         padding: 15px;
     }
+
+    /* -----------------ROW LOCATION--------------------- */
+    .location .content_location {
+        padding: 100px 20px;
+    }
+    .content_location .row_locations {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

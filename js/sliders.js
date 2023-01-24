@@ -98,6 +98,24 @@ $('.carousel_motorcycle').owlCarousel({
     }    
 })
 
+$('carousel:logos').owlCarousel ({ 
+    loop: true,
+    autoplay: true,
+    margin:20,
+    autoplayTimeout:3000,
+    responsive: {
+        0: {
+            items:1,
+            nav: false
+        },
+        424:{
+            items:2,
+            nav: false
+        }
+    }
+ }
+)
+
 $('.carousel_logos').owlCarousel({
     loop:true,
     autoplay: true,

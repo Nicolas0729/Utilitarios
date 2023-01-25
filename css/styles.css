@@ -773,6 +773,7 @@ body p {
         padding: 20px 0px;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
         .btn_models:hover .primary {
             background-color: var(--color_1);
@@ -1631,6 +1632,9 @@ body p {
     max-width: 1140px;
     margin: auto;
     padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .content_blog .container_blog {
     width: 100%;
@@ -1638,6 +1642,11 @@ body p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    margin-bottom: 30px;
+}
+.content_blog .bot_motos_ {
+    display: flex;
+    justify-content: center;
 }
 
 /* ------------ERROR_404------------------ */

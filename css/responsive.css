@@ -63,12 +63,14 @@
     }
     .filter_home {
         display: none;
+        padding-left: 0;
     }
     .filter_home_pos {
         display: block;
     }
-    .card_slider .container_card {
-
+    .filter_home .content_filter_mobile {
+        width: 90%;
+        margin: auto;
     }
     .container_card .content_card {
         display: flex;

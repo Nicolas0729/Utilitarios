@@ -178,6 +178,9 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
     }
+    .box_content .img_box_sm img {
+        height: 50px;
+    }
 
     /* -------------MOTORCYCLE-------------------- */
     .motorcycle .carousel_motorcycle {

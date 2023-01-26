@@ -1258,7 +1258,7 @@ body p {
 .sidebar_left_sticky .sidebar_left {
     width: 100%;
     position: sticky;
-    top: 50px;
+    top: 20px;
 }
 .sidebar_left .head_real {
     width: 100%;

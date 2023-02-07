@@ -402,4 +402,12 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    /* --------------MODAL_VIDEO---------------- */
+    .modal-header .modal-title {
+        font-size: 13px;
+    }
+    .modal-body .video_drive {
+        height: 350px;
+    }
 }

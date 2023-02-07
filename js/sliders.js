@@ -107,7 +107,7 @@ $('.carousel_logos').owlCarousel({
     autoplayHoverPause: true,
     responsive: {
         0:{
-            items: 1,
+            items: 2,
             nav: false
         },
         424:{
@@ -123,7 +123,7 @@ $('.carousel_logos').owlCarousel({
             nav: false
         },
         1340:{
-            items: 7,
+            items: 6,
             nav: false
         }
         
